@@ -1,0 +1,762 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+
+
+#Ust1{
+    left:0;
+    top:0;
+    width:100%;
+    height:50px;
+    background-color:rgb(187, 148, 148);
+}
+#Ust1 #sol{
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+    padding-right:30px;
+    font-size:25px;
+    color:rgb(59, 30, 30);
+    
+}
+#Ust1 #sag{
+    float: right;
+    padding-right:80px;
+   padding-top:6px;
+    
+}
+
+#Ust2{
+   
+    width:100%;
+    height:55px;
+    background-color:rgb(158, 60, 78);
+    font-family:'Dancing Script', cursive;
+    background-image: url(resimlerr/seker.jpg);
+}
+
+
+
+
+nav{
+    background-color:rgb(143, 69, 80);
+    font-family:'Dancing Script', cursive;
+    
+}
+
+.nav-links li a{
+    color:rgb(19, 3, 3);
+    font-weight:bold;
+    text-decoration: none;
+    font-size:20px;
+    border-left:3px solid rgb(196, 126, 137) ;
+    border-right:3px solid  rgb(196, 126, 137);
+    border-bottom:3px solid rgb(196, 126, 137);
+    
+}
+.nav-links{
+    display:flex;
+    list-style:none;
+    width:70%;
+    height:85px;
+    justify-content:space-around;
+    align-items: center;
+    margin-left:200px;
+    
+    
+}
+@media screen and (max-width:768px){
+    .line{
+        width:40px;
+        height:5px;
+        margin:5px;
+        background:rgb(95, 13, 25);
+        padding:0px 5px;
+        padding-bottom:5px;
+        
+        
+    }
+    nav{
+        position: relative;
+        background-color:rgb(218, 153, 153);
+        height:50px;
+        
+    }
+    .hamburger{
+        position:absolute;
+        cursor:pointer;
+        right:47%;
+        top:30%;
+        z-index:2;
+    }
+    .nav-links{
+        position: fixed;
+        background-image:url(resimlerr/hamburger.jpg);
+        height:83vh;
+        width:80%;
+        flex-direction:column;
+        display:none;
+        right:auto;
+    }
+    
+    .nav-links.open{
+        display:flex;
+        
+        
+    }
+}
+#orta1{
+   background-color:rgb(247, 199, 208);
+   float:left; 
+   height:445px;
+   
+}
+#orta1 #orta2{
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+    font-size:25pt;
+    float:right;
+    padding-right:80px;
+    padding-top:10px;
+   color:rgb(59, 30, 30);
+}
+@media  screen and (max-width:768px){
+    #orta1{
+        background-color:rgb(247, 199, 208);
+        float:left;
+        height:800px;
+    }
+    
+    #orta1 #orta2{
+        font-family:'Dancing Script', cursive;
+        font-weight: bold;
+        font-size:20pt;
+        float:left;
+        padding-right:20px;
+        padding-top:1px;
+       color:rgb(59, 30, 30);
+     }
+}
+
+#alt{
+    border:6px solid rgb(110, 17, 32);
+    font-family:'Dancing Script', cursive;
+    background-color:rgb(255, 231, 235);
+}
+#alt #alt1{
+    word-spacing: 80px;
+    font-size:25pt;
+    color:rgb(59, 30, 30);
+    
+}
+@media screen and (max-width:768px){
+    #alt{
+        border:4px solid rgb(110, 17, 32);
+        font-family:'Dancing Script', cursive;
+        background-color:rgb(255, 231, 235);
+        width:675px;
+    }
+    #alt #alt1{
+        word-spacing:70px;
+        font-size:25pt;
+        color:rgb(59, 30, 30);
+        
+    }
+}
+@media screen and (max-width:500px){
+    #alt{
+        width:350px;
+
+    }
+}
+#alt2{
+    background-image: url(resimlerr/seker.jpg);
+    width:100%;
+    height:50px;
+    
+}
+
+#footer1{
+    background-color:rgb(247, 218, 223);
+    width:100%;
+    height:820px;
+    color:rgb(27, 8, 12);
+    font-family:'Dancing Script', cursive;
+    
+}
+#footer1 #footer{
+    float:left;
+    padding-left: 40px;
+    color:rgb(27, 8, 12);
+    font-family:'Dancing Script', cursive;
+    border-left:10px solid  rgb(110, 17, 32);
+    
+}
+#footer1 #footer2{
+    float:right;
+    padding-right:60px;
+    color:rgb(27, 8, 12);
+    font-family:'Dancing Script', cursive;
+   
+}
+#footer1 #footer3{
+    float:right;
+    color:rgb(27, 8, 12);
+    font-family:'Dancing Script', cursive;
+    
+}
+@media screen and (max-width:768px){
+    #footer1{
+        background-color:rgb(247, 218, 223);
+        width:100%;
+        height:2100px;
+        
+        
+    }
+    #footer1 #footer3{
+        float:left;
+        padding-left:30px;
+        color:rgb(27, 8, 12);
+        border-left:10px solid  rgb(110, 17, 32);
+    }
+    #footer1 #footer2{
+        float:left;
+        padding-left:30px;
+        border-left:10px solid  rgb(110, 17, 32);
+    }
+    #footer1 #footer{
+        float:left;
+        border-left:10px solid  rgb(110, 17, 32);
+        
+    }
+}
+#isim{
+    background-color:rgb(165, 112, 121);
+    height:50px;
+    font-family:'Dancing Script', cursive;
+    float:left;
+    padding-left:550px; 
+    font-size:15pt;
+    color:rgb(54, 5, 13);
+}
+#bos{
+    background-image: url(resimlerr/seker.jpg);
+    width:100%;
+    height:50px;
+}
+
+#ürünust1 {
+    font-family:'Dancing Script', cursive;
+    color:rgb(54, 5, 13);
+    font-size:20pt;
+    padding-top:50px;
+    float:left;
+    padding-left: 30px;
+    background-color:rgb(165, 112, 121);
+    height:300px;
+}
+#ürünust1 #ürünust2{
+    float:right;
+    padding-right: 80px;
+    top:600px;
+    
+   
+}
+
+
+#ürünust3{
+    background-color:rgb(165, 112, 121);
+    font-family:'Dancing Script', cursive;
+    color:rgb(54, 5, 13);
+    font-size:20pt;
+    padding-top:50px;
+    float:left;
+    padding-left: 30px;
+    background-color:rgb(165, 112, 121);
+    height:300px;
+    border-top:10px solid  rgb(110, 17, 32);
+}
+#ürünust3 #ürünust4{
+    float:right;
+    padding-right: 80px;
+    top:600px;
+    
+   
+}
+#ürünust5{
+    background-color:rgb(165, 112, 121);
+    font-family:'Dancing Script', cursive;
+    color:rgb(54, 5, 13);
+    font-size:20pt;
+    padding-top:50px;
+    float:left;
+    padding-left: 30px;
+    background-color:rgb(165, 112, 121);
+    height:300px;
+    border-top:10px solid  rgb(110, 17, 32);
+}
+#ürünust5 #ürünust6{
+    float:right;
+    padding-right:210px;
+    
+    
+   
+}
+
+#bos1{
+    background-image: url(resimlerr/seker.jpg);
+    width:100%;
+    height:50px;
+}
+
+@media screen and (max-width:768px){
+    #isim{
+    height:60px;
+    float:left;
+    padding-left:200px; 
+
+         
+ }
+ #ürünust1{
+     height:500px;
+ }
+ #ürünust3{
+     height:500px;
+ }
+ #ürünust5{
+     height:500px;
+ }
+}
+
+@media screen and (max-width:500px){
+    #isim{
+        float:left;
+        padding-left:150px;
+           
+    }
+    #ürünust1{
+        height:700px;
+    }
+    #ürünust3{
+        height:700px;
+    }
+    #ürünust5{
+        height:700px;
+    }
+}
+
+.hakkımızda1{
+    
+    background:rgb(211, 131, 144);
+    animation-name:resimlerimiz;
+    animation-duration: 5s;
+    transition:300ms;
+    float:left;
+    padding-left:400px;
+    font-family:'Dancing Script', cursive;
+    font-size:17pt;
+}
+@keyframes resimlerimiz{
+    0%{
+        transform: translateY(50rem);
+    }
+    100%{
+        transform: translateY(0);
+    } 
+}
+
+#formm{
+    float:left;
+    padding-left:400px;
+    background:rgb(211, 131, 144);
+    font-family:'Dancing Script', cursive;
+    font-size:25pt;
+}
+
+#öneri{
+    float:left;
+    padding-left:400px;
+    background:rgb(211, 131, 144);
+    font-family:'Dancing Script', cursive;
+    font-size:25pt;
+   
+
+}
+
+@media screen and (max-width:768px){
+    .hakkımızda1{
+        float:left;
+    padding-left:100px;
+    }
+    #formm{
+        float:left;
+    padding-left:100px;
+    
+    }
+    #öneri{
+    float:left;
+    padding-left:100px;
+    }
+}
+@media screen and (max-width:500px){
+    .hakkımızda1{
+        float:left;
+    padding-left:10px;
+    }
+    #formm{
+        float:left;
+    padding-left:10px;
+    
+    }
+    #öneri{
+    float:left;
+    padding-left:10px;
+    }
+}
+
+.iletişimformum {
+    height: 5px;
+    width: 60%;
+    margin:auto;
+    font-family:'Dancing Script', cursive;
+    float:left;
+    padding-left:100px;
+    color:rgb(27, 2, 6);
+    
+   
+}
+
+.formum2{
+    border:2px solid rgb(110, 18, 33);
+    background-color:rgb(192, 128, 139);
+    font-family:'Dancing Script', cursive;
+    font-size:12pt;
+}
+
+.iletişimm{
+    width:44rem;
+    border:1px solid black;
+    border-bottom:0.2 rem dashed rgb(253, 211, 218);
+    margin:3 rem 0;
+    padding:1rem 1rem 1rem 0;
+    color:rgb(92, 14, 28);
+    background-color: rgb(252, 237, 239);
+    font-family:'Dancing Script', cursive;
+    font-size:15pt;
+    float:left;
+    padding-left:50px;
+    font-weight:bold;
+    
+}
+
+.iletişimmm{
+    width:44rem;
+    border:1px solid black;
+    border-bottom:3 rem dashed rgb(255, 204, 213);
+    margin:3rem 0;
+    padding:4rem 4rem 4rem;
+    color:rgb(92, 14, 28);
+    background-color: rgb(252, 237, 239);
+    font-family:'Dancing Script', cursive;
+    font-size:15pt;
+}
+@media screen and (max-width:768px){
+    .iletişimformum{
+       float:left;
+       top:20px;
+    }  
+    .iletişimmm{
+        float:left;
+        top:20px; 
+    }
+    .iletişimm{
+        float:left;
+        top:20px; 
+    }
+    .formum2{
+        float:left;
+        top:20px; 
+    }
+}
+@media screen and (max-width:500px){
+    .iletişimformum{
+       float:left;
+       top:50px;
+    }  
+    .iletişimmm{
+        float:left;
+        top:50px; 
+    }
+    .iletişimm{
+        float:left;
+        top:50px; 
+    }
+    .formum2{
+        float:left;
+        top:50px; 
+    }
+}
+.header{
+    color:rgb(167, 75, 90);
+    font-family:'Dancing Script', cursive;
+    float:left;
+}
+form{
+    float:left;
+    
+}
+.todo-input{
+    
+    display: flex;
+    float:left;
+    font-family:'Dancing Script', cursive;
+
+}
+
+.todo-input input{
+    width: 500px;
+    height: 30px;
+    font-family:'Dancing Script', cursive;
+    float:left;
+   
+}
+.todo-container{
+    font-family:'Dancing Script', cursive;
+    float:left;
+    
+}
+.todo-list{
+    color:rgb(104, 27, 40);
+}
+    .todo-input span{
+        padding: 5px 25px;
+        cursor: pointer;
+        float:left;
+        padding-left: 2px;
+        font-size: 85%;
+        background: rgb(105, 23, 36);
+        color:pink;
+        font-family:'Dancing Script', cursive;
+        
+        
+        
+    }
+    .silmebutonu {
+        padding-bottom: 100px;
+        font-family:'Dancing Script', cursive;
+        color:rgb(150, 51, 67);
+        float:left;
+        
+    }
+    
+    .hepsiniSil{
+        padding-bottom: 100px;
+        font-family:'Dancing Script', cursive;
+        color:rgb(109, 30, 43);
+        font-size:15pt;
+        float:left;
+       
+    }
+    @media screen and (max-width:768px){
+        .todo-input{
+            float:left;
+        }   
+        .todo-input input{ 
+            float:left;
+        }
+        .todo-list{
+            float:left;
+            font-size:15pt;
+            }
+            .hepsiniSil{
+                float:left;
+            }
+    }   
+ #resimlerimiz{
+     background-color: gray;
+ }
+#resimlerimiz #resimlerri{
+  color:rgb(241, 137, 155);
+  font-family:'Dancing Script', cursive;
+  font-size:18pt;
+  border-bottom:1px solid rgb(53, 44, 46);
+}
+
+#konsept2{
+    background-color: gray;
+}
+#konsept2 #konseptimiz{
+    color:rgb(241, 137, 155);
+    font-family:'Dancing Script', cursive;
+    font-size:18pt;
+    border-bottom:1px solid rgb(53, 44, 46);
+}
+@media screen and (max-width:768px){
+    #resimlerimiz #resimlerri{
+    float:left; 
+    color:rgb(241, 137, 155);
+  font-family:'Dancing Script', cursive;
+  font-size:15pt;
+  border-bottom:2px solid rgb(53, 44, 46);
+    }
+         
+    }
+    @media screen and (max-width:500px){
+        #resimlerimiz #resimlerri{
+        float:left; 
+        color:rgb(241, 137, 155);
+      font-family:'Dancing Script', cursive;
+      font-size:13pt;
+      border-bottom:4px solid rgb(53, 44, 46);
+        }
+    }
+    @media screen and (max-width:768px){
+        #konsept2 #konseptimiz{
+        float:left; 
+        color:rgb(241, 137, 155);
+      font-family:'Dancing Script', cursive;
+      font-size:15pt;
+      border-bottom:2px solid rgb(53, 44, 46);
+        }
+    }
+    @media screen and (max-width:500px){
+        #konsept2 #konseptimiz {
+        float:left; 
+        color:rgb(241, 137, 155);
+      font-family:'Dancing Script', cursive;
+      font-size:13pt;
+      border-bottom:4px solid rgb(53, 44, 46);
+        }
+    }
+    
+    .Menü{
+       
+        
+        transform: scale(.82);
+       -webkit-transform: scale(.82);
+       
+       
+       
+    }
+
+     .Menü .Menülerimiz{
+        float:left;
+        padding-left:350px;
+    
+    }
+    
+
+
+ .bos2{
+    transform: rotate(-10deg);
+    color:rgb(65, 11, 20);
+    font-family:'Dancing Script', cursive;
+    font-size:17pt;
+    border-bottom:4px solid rgb(65, 62, 62);
+}
+
+.bos4{
+  
+  transform: rotate(-10deg);
+  color:rgb(65, 11, 20);
+  font-family:'Dancing Script', cursive;
+  font-size:17pt;
+  border-bottom:4px solid rgb(65, 62, 62);
+
+}
+.bos3{
+    transform: rotate(-10deg);
+  color:rgb(65, 11, 20);
+  font-family:'Dancing Script', cursive;
+  font-size:17pt;
+  border-bottom:4px solid rgb(65, 62, 62);
+}
+.bos5{
+    transform: rotate(-10deg);
+  color:rgb(65, 11, 20);
+  font-family:'Dancing Script', cursive;
+  font-size:17pt;
+  border-bottom:4px solid rgb(65, 62, 62); 
+}
+@media screen and (max-width:768px){
+    .Menü{
+       
+        
+        transform: scale(.82);
+       -webkit-transform: scale(.82);
+       
+       float:left;
+       
+    }
+
+     .Menü .Menülerimiz{
+        float:left;
+        
+     }
+     .bos2{
+        transform: rotate(-10deg);
+     }
+        
+        .bos4{
+          
+          transform: rotate(-10deg);
+          
+        
+        }
+        .bos3{
+            transform: rotate(-10deg);
+          
+        }
+        .bos5{
+            transform: rotate(-10deg);
+          
+        }
+    
+}
+@media screen and (max-width:500px){
+    .Menü{
+       
+        
+        transform: scale(.82);
+       -webkit-transform: scale(.82);
+       
+       float:left;
+       
+    }
+
+     .Menü .Menülerimiz{
+        float:left;
+        
+    
+    }
+    .bos2{
+        transform: rotate(-10deg);
+        
+    }
+    
+    .bos4{
+      
+      transform: rotate(-10deg);
+      
+    
+    }
+    .bos3{
+        transform: rotate(-10deg);
+      
+    }
+    .bos5{
+        transform: rotate(-10deg);
+      
+    }
+}
